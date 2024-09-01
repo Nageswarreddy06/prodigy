@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>peddireddy nageswarreddy's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .profile {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #333;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>peddireddy nageswarreddy</h1>
+        <p>Undergraduate in Computer Science and Engineering</p>
+    </header>
+
+    <div class="container">
+        <div class="profile">
+            <img src="Nageswarreddy.jpg" alt="peddireddy nageswarreddy">
+            <p>Hi, my name is peddireddy nageswarreddy. I am pursuing an undergraduate degree with a strong passion for Software Engineering. Throughout my academic journey, I have gained theoretical knowledge in Python, HTML, CSS, Java, C, and C++. I have completed internships where I applied my learnings in practical settings. I am confident that my skills and experiences make me a strong candidate for a Computer Science position at any esteemed company. I have also completed various projects in my college.</p>
+        </div>
+
+        <section>
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:rnageswar521@gmail.com">rnageswar521@gmail.com</a></p>
+            <p>Phone Number: <a href="tel:+6303747435">630-374-7435</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/pnageswar Reddy" target="_blank">www.linkedin.com/in/pnageswar Reddy</a></p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>C</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <p>Currently pursuing a degree in Computer Science and Engineering at Gandhi Institute of Technology and Management (GITAM).</p>
+            <p>Relevant coursework: Data Structures and Algorithms with Java, Algorithms, DBMS</p>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <h3>Smart Helmet</h3>
+            <p><strong>Description:</strong> Our product, Smart Helmet, is a Bluetooth-based integrated system in which the bike engine only starts when the helmet is paired with the bike’s Bluetooth. It is far different from regular helmets and can be more helpful for this generation. Features include an Integrated Bluetooth system, an Integrated Air Conditioner, Lightweight and robust material, Breathable Design, Integrated speakers & mic, Solar Powered, and Water Resistant.</p>
+            <p><strong>Technology used:</strong> The technology involves a GSM module with a SIM card slot to send SMS with the location given by the GPS module. We use an Arduino UNO board with an ATmega328 microcontroller to run the GPS and GSM module.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 peddireddy nageswarreddy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
