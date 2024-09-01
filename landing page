@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        .logo {
+            width: 50px;
+        }
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        main {
+            display: flex;
+            padding: 50px;
+        }
+        .content {
+            flex: 1;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0;
+        }
+        .highlight {
+            color: #336200;
+        }
+        .cta-button {
+            background-color: #001d62;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .product-image {
+            flex: 1;
+            text-align: right;
+        }
+        .product-image img {
+            width: 300px;
+        }
+        .thumbnails {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 20px;
+        }
+        .thumbnails img {
+            width: 50px;
+            margin-right: 10px;
+        }
+        .social-icons {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .social-icons a {
+            display: block;
+            margin-bottom: 10px;
+            color: #62004e;
+        }
+    </style>
+</head>
+<body>1
+    <header>
+        <img src="main star bucks.jpeg" alt="StarBucksLogo" class="Logo">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">What's New</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <h1>It's not just Coffee<br>It's <span class="highlight">Starbucks</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <button class="cta-button">LEARN MORE</button>
+            <div class="thumbnails">
+                <img src="pic 2.webp" alt="Green drink">
+                <img src="pic3.jpeg" alt="Pink drink">
+                <img src="pic4.jpeg" alt="Purple drink">
+            </div>
+        </div>
+        <div class="product-image">
+            <img src="pic.jpeg" alt="Featured Starbucks drink">
+        </div>
+    </main>
+    <div class="social-icons">
+        <a href="#">f</a>
+        <a href="#">t</a>
+        <a href="#">IG</a>
+    </div>
+</body>
+</html>
